@@ -5,14 +5,14 @@ TOKEN = os.environ.get("APIFY_TOKEN")
 if not TOKEN:
     raise SystemExit("Set APIFY_TOKEN first")
 
-payload = {
-    "startUrls": [
-        "https://www.apify.com"
-    ],
-    "maxPagesPerDomain": 2,
-    "maxDecisionMakers": 5,
-    "verifyEmailDomains": true
-}
+payload = json.loads(r'''{
+  "startUrls": [
+    "https://www.apify.com"
+  ],
+  "maxPagesPerDomain": 2,
+  "maxDecisionMakers": 5,
+  "verifyEmailDomains": true
+}''')
 
 req = urllib.request.Request(
     "https://api.apify.com/v2/acts/structlabs~fast-contact-lead-extractor/run-sync-get-dataset-items",
