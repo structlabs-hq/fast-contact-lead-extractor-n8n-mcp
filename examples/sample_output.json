@@ -1,0 +1,145 @@
+[
+  {
+    "domain": "stripe.com",
+    "website": "https://stripe.com",
+    "start_url": "https://stripe.com",
+    "emails": [
+      "sales@example.com"
+    ],
+    "phones": [
+      "+1-555-0100"
+    ],
+    "social_profiles": {},
+    "technologies": [
+      "Next.js",
+      "Nginx"
+    ],
+    "ad_pixels": {
+      "gtm_id": [
+        "GTM-XXXXXXX"
+      ]
+    },
+    "decision_makers": [],
+    "verified_decision_makers": 0,
+    "email_domain_valid": true,
+    "email_domains": [
+      {
+        "domain": "stripe.com",
+        "mx_found": true,
+        "status": "mx_found"
+      }
+    ],
+    "pages_scanned": 3,
+    "pages_succeeded": 3,
+    "error": null,
+    "elapsed_ms": 548,
+    "scraped_at": "2026-11-20T08:34:23Z"
+  },
+  {
+    "domain": "apify.com",
+    "website": "https://apify.com",
+    "start_url": "https://apify.com",
+    "emails": [
+      "sales@example.com"
+    ],
+    "phones": [],
+    "social_profiles": {
+      "linkedin": [
+        "http://linkedin.com/company/apify",
+        "https://www.linkedin.com/company/apify"
+      ],
+      "tiktok": [
+        "https://www.tiktok.com/@apifytech",
+        "https://www.tiktok.com/@apifyoffice"
+      ]
+    },
+    "technologies": [
+      "AWS",
+      "Google Analytics",
+      "Google Tag Manager",
+      "HubSpot",
+      "Intercom",
+      "Next.js"
+    ],
+    "ad_pixels": {
+      "gtm_id": [
+        "GTM-XXXXXXX"
+      ]
+    },
+    "decision_makers": [],
+    "verified_decision_makers": 0,
+    "email_domain_valid": true,
+    "email_domains": [
+      {
+        "domain": "apify.com",
+        "mx_found": true,
+        "status": "mx_found"
+      }
+    ],
+    "pages_scanned": 3,
+    "pages_succeeded": 2,
+    "error": null,
+    "elapsed_ms": 2008,
+    "scraped_at": "2026-11-20T08:34:23Z"
+  },
+  {
+    "domain": "gymshark.com",
+    "website": "https://gymshark.com",
+    "start_url": "https://www.gymshark.com",
+    "emails": [
+      "sales@example.com"
+    ],
+    "phones": [],
+    "social_profiles": {
+      "facebook": [
+        "https://www.facebook.com/GymShark",
+        "https://www.facebook.com/gymshark"
+      ],
+      "youtube": [
+        "https://www.youtube.com/user/GymSharkTV"
+      ],
+      "instagram": [
+        "https://www.instagram.com/gymshark"
+      ],
+      "x": [
+        "https://www.twitter.com/gymshark",
+        "https://x.com/gymshark"
+      ],
+      "tiktok": [
+        "https://www.tiktok.com/@gymshark"
+      ]
+    },
+    "technologies": [
+      "AWS",
+      "Intercom",
+      "Next.js",
+      "Nginx",
+      "Shopify"
+    ],
+    "ad_pixels": {},
+    "decision_makers": [
+      {
+        "name": "Alex M.",
+        "title": "Founder",
+        "email": "alex@example.com",
+        "email_source": null,
+        "email_domain_valid": null,
+        "source_url": "https://www.gymshark.com/pages/about-us"
+      }
+    ],
+    "verified_decision_makers": 0,
+    "email_domain_valid": true,
+    "email_domains": [
+      {
+        "domain": "gymshark.com",
+        "mx_found": true,
+        "status": "mx_found"
+      }
+    ],
+    "pages_scanned": 6,
+    "pages_succeeded": 3,
+    "error": null,
+    "elapsed_ms": 1864,
+    "scraped_at": "2026-11-20T08:34:23Z"
+  }
+]
