@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "apify-fast-contact-lead-extractor": {
+      "url": "https://mcp.apify.com/?actors=structlabs/fast-contact-lead-extractor"
+    }
+  }
+}
